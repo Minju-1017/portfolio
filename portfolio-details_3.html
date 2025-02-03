@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Resume</title>
+  <title>Portfolio Details</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="resume-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
@@ -51,7 +51,7 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="resume.html" class="active">Resume</a></li>
+          <li><a href="resume.html">Resume</a></li>
           <!-- <li><a href="services.html">Services</a></li> -->
           <li><a href="portfolio.html">Portfolio</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -88,114 +88,97 @@
 
   <main class="main">
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
+        <h2>Portfolio Details</h2>
         <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row">
+        <div class="row gy-4">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">김민주</h3>
-            <div class="resume-item pb-0">
-              <!-- <h4>김민주</h4> -->
-              <p><em>분석 능력이 뛰어나 새로운 환경에 적응이 빠르며,<br>꼼꼼한 성격으로 버그 0%를 향해 노력하는 13년 경력의 개발자 김민주입니다.</em></p>
-              <ul>
-                <li>서울</li>
-                <li>010-999-9999</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
 
-            <h3 class="resume-title">학력</h3>
-            <div class="resume-item pb-0">
-              <h4>대학교</h4>
-              <h5>0000.03 - 1111.02</h5>
-              <ul>
-                <li>정보통계학과</li>
-                <li>4.5 / 4.5</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-            <div class="resume-item pb-0">
-              <h4>고등학교</h4>
-              <h5>2222.03 - 3333.02</h5>
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-3_1.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-3_2.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-3_3.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-3_4.png" alt="">
+                </div> 
+
+
+              </div>
+              <div class="swiper-pagination"></div>
             </div>
-
-            <h3 class="resume-title">교육</h3>
-            <div class="resume-item">
-              <h4>클라우드기반 AI Automation 스마트관리시스템<br><br>(물류관리, 생산관리) 자바 백엔드개발</h4>
-              <h5>2024.12 - 2025.06</h5>
-              <p><em>이젠컴퓨터학원 노원캠퍼스</em></p>
-              <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>자바프로그래머 과정</h4>
-              <h5>2001.05 - 2001.07</h5>
-              <p><em>중앙정보처리학원</em></p>
-              <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>웹마스터 과정</h4>
-              <h5>2000.11 - 2001.03</h5>
-              <p><em>중앙정보처리학원</em></p>
-              <!-- <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p> -->
-            </div><!-- Edn Resume Item -->
-
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">경력</h3>
-            <div class="resume-item">
-              <h4>A사</h4>
-              <h5>2006.09 - 2016.03</h5>
-              <p><em>Game Client 개발자, 차장/팀장</em></p>
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Casino Frenzy<br>모바일 클라이언트 개발</h3>
               <ul>
-                <li>관리자 직무 수행</li>
-                <li>CF Client 개발</li>
-                <li>3388 Client 개발</li>
-                <li>FC Client 개발</li>
-                <li>AP / UB Cross Platform Client 개발</li>
-                <li>Pingo Client 개발</li>
-                <li>Bingo Client 개발</li>
+                <li><strong>개발기간</strong>: 2014. 01 ~ 2016. 03</li>
+                <li><strong>서비스기간</strong>: 2014. 12 ~</li>
+                <li><strong>개발인원</strong>: 5명</li>
+                <li><strong>사용기술</strong>: C/C++, TCP/IP(BSDSocket), Cocos2d-x(3.x), Android, iOS</li>
+                <li><strong>사용도구</strong>: Visual Studio, TexturePacker, Jira, Confluence, Svn</li>
+                <li><strong>개발방법론</strong>: Waterfall >> Agile (3주 단위 스프린트)</li>
+                <li>
+                  <strong>역할</strong>:<br>
+                  - Java Applet으로 구현되어 있던 기존 버전을 Java Application으로 변경<br>
+                  - 공통 Utility 구현<br>
+                  - 공통 UI 구현<br>
+                  - 대기실의 모든 기능 구현
+                </li>
+                <!-- <li><strong>사용도구</strong>: <a href="#">www.example.com</a></li> -->
               </ul>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>B사</h4>
-              <h5>2005.03 - 2006.09</h5>
-              <p><em>DTV Application 개발자, 주임연구원/팀원</em></p>
-              <ul>
-                <li>KT Film 2.0 DP 서비스 개발 - 영화 정보 서비스</li>
-                <li>산자부 연구용 과제 - 가상 채널 도메인 시스템을 활용한 DTV 양방향 방송 기반의 개인화 방송 시스템 개발</li>
-                <li>씨엔엠커뮤니케이션(주) 케이블 TV 디지털 방송 고도화 프로젝트 Monitor Application 개발</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>C사</h4>
-              <h5>2003.06 - 2004.11</h5>
-              <p><em>Game Server 개발자, 대리/팀원</em></p>
-              <ul>
-                <li>Casual Game Server 개발</li>
-                <li>Casual Game 기획</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <!-- <h2>Exercitationem repudiandae officiis neque suscipit</h2> -->
+              <p>
+                회사의 성장 발판이 되었던 프로젝트입니다.<br>
+                미국 상위 랭킹 10위 안에 드는 Real Money Poker 게임사였던 Ultimate Bet에 독점 납품한 PC용 카지노 게임입니다.<br>
+                2010년 6월 미국 정부가 Real Money Poker에 대한 제재를 하게 되어 서비스 종료 되었습니다.
+              </p>
+            </div>
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Resume Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
